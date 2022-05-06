@@ -1,0 +1,120 @@
+/* CSS Documento */
+
+body{
+    background-image: url(imag/bg/bgg.jpg);
+    background-size: cover;
+}
+
+/* Nav */
+
+.icono{
+    width: 70px;
+
+
+}
+
+.icono-nav{
+    width: 20px;
+    margin: 10px 5px;
+}
+
+/* Banner 01 */
+
+#titulos{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    color: white;
+    
+}
+
+#fondo{
+    background: linear-gradient(rgba(67, 69, 71, 0.568), rgb(67, 69, 71, 0.15) ),url( imag/cuerpo/leofondo.png);
+    background-size: cover;
+}
+
+#letra{
+    justify-content: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Banner 02 */
+
+#titulos{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    color: white;
+    
+}
+
+#fondo_2{
+    background: linear-gradient(rgba(67, 69, 71, 0.568), rgb(67, 69, 71, 0.15) ), url(imag/cuerpo/lautarofondo.png);
+    background-size: cover;
+    
+}
+
+#letra{
+    justify-content: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Banner 03 */
+
+#titulos{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    color: white;
+    
+}
+
+#fondo_3{
+    background: linear-gradient(rgba(67, 69, 71, 0.568), rgb(67, 69, 71, 0.15) ), url(imag/cuerpo/entrenandofondo.png);
+    background-size: cover;
+}
+
+#letra{
+    justify-content: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Formulario */
+
+#fondof{
+    background: linear-gradient(rgba(67, 69, 71, 0.568), rgb(67, 69, 71, 0.15) ), url(imag/form/messiformf.png);
+    background-size: cover;
+}
+
+#txtf{
+    margin: 50px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif, bold ;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.logo_fooder{
+    width: 200px;
+    align-content: center;
+}
+
+.redes_fooder{
+    width: 30px;
+   margin: 10px 10px;
+
+}

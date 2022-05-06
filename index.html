@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PRIMER PROYECTO DIEGO QUIROGA - UTN - 2022 -->
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="syle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    
+    <title>La Scaloneta</title>
+
+</head>
+
+<body>
+
+      <!-- Menu -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img class="icono" src="imag/nav/sca.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">SCALONETA</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Seleccion
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="copaamerica.html">Copa America 2021</a></li>
+                      <li><a class="dropdown-item" href="scaloni.html">Lionel Scaloni</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                      <a href="https://www.instagram.com/afaseleccion/" target="_blank"><img class="icono-nav" src="imag/svg/instagram-logo.svg" alt="Instagram"></a>
+                      <a href="https://twitter.com/Argentina?s=20" target="_blank"><img class="icono-nav" src="imag/svg/twitter-logo-button.svg" alt="Twitter"></a>
+                      <a href="https://www.youtube.com/user/AFASeleccion/featured" target="_blank"><img class="icono-nav" src="imag/svg/youtube.svg" alt="YouTube"></a>
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+      </nav>
+
+      <!-- Sliders -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imag/slider/messi.jpeg" class="d-block w-100" alt="La Foto Soñada">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>La Foto Soñada</h5>
+                  <p>el momento que tanto se lucho.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imag/slider/arg1.jpg" class="d-block w-100" alt="nueva final">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Nuevo equipo, Nueva Final</h5>
+                  <p>un capitulo mas.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imag/slider/scaloni.jpg" class="d-block w-100" alt="scalonidios">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El Mas Criticado</h5>
+                  <p>y el unico que pudo.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imag/slider/scaloneta.png" class="d-block w-100" alt="scalonnets">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>LA SCALONETA</h5>
+                  <p>Y SU MARACANAZO</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div>
+
+        <br>
+
+      <!-- Banner 01 -->
+      <section>
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6">
+                <img class="img-fluid" src="imag/cuerpo/leo1.jpg"alt="leo1">
+              </div>
+              <div id="fondo" class="col-sm-6">
+                <h5 id="titulos">EL CAPITAN</h5> 
+                  <p id="letra">
+                    El rosarino, a sus 34 años, consiguó levantar su primer trofeo con la Mayor, después de haber sido subcampeón del mundo en Brasil 2014 y continental en tres oportunidades (Venezuela 2007, Chile 2015 y Estados Unidos 2016).
+                    Lionel Messi, máximo goleador de la historia de la Selección Argentina, brilló de la mano de varios entrenadores con la Albiceleste. Una de sus mejores versiones fue con Alejandro Sabella, con quien llegó a la final del Mundial, donde cayeron con Alemania.
+                    Siete años después,con Scaloni a la cabeza, podemos ver a un capitan totalmente nuevo, un capitan maduro, líder indiscutido del equipo, que potencia a sus jóvenes compañeros y es figura en cada partido. 
+                    Sin dudas, la mejor version de Messi.
+                </p>
+              </div >
+
+            </div>
+
+          </div>
+
+      </section>
+
+        <br>
+
+      <!-- Banner 02 -->
+      <section>
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div id="fondo_2" class="col-sm-6">
+                <h5 id="titulos">EL NUEVO 9</h5> 
+                  <p id="letra">
+                    Desde que comenzó el ciclo de Lionel Scaloni al frente de la Selección argentina , comenzó una profunda renovación que tuvo como primer abanderado a  Lautaro Martínez , quien rápidamente respondió a puro gol   y se hizo con la titularidad de forma indiscutida. Sin embargo, el jugador de Inter parecía haber entrado en un clásico bache y luego de cuatro partidos oficiales sin convertir , aparecieron las primeras dudas sobre su continuidad en el once y el DT decidió darle minutos al Kun Agüero durante la Copa América. Sin embargo, no tardó en volver a gritar y recuperar su lugar.
+                    Si bien no tardó demasiado en consolidarse como la referencia del ataque en el proceso del DT rosarino, siendo titular en cuatro de los seis partidos de la Copa América 2019, fue en el amistoso frente a México, en la primera gira después de la competencia en Brasil, que el Toro tuvo la noche de su vida y en 39 minutos consiguió un hattrick , a máxima potencia para llevarse por delante a la defensa del Tri.
+                </p>
+              </div >
+              <div class="col-sm-6">
+                <img class="img-fluid" src="imag/cuerpo/lautaro2.jpg"alt="torito">
+              </div>
+
+            </div>
+
+          </div>
+
+      </section>
+
+        <br>
+
+      <!-- Banner 03 -->
+      <section>
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6">
+                <img class="img-fluid" src="imag/cuerpo/entrenando.jpg"alt="entrennado">
+              </div>
+              <div id="fondo_3" class="col-sm-6">
+                <h5 id="titulos">EN CAMINO</h5> 
+                  <p id="letra">
+                    La Seleccion nacional se entrena en el predio deportivo que la AFA posee en ezeiza con el plantel completo, si bien todos los jugadores vienen de europa recientemente, lograron adaptarse al ritmo del entrenamiento para poder llegar al 100% para los ultimos partidos de Eliminatorias Sudamericanas.
+                    Se puede ver que el nuevo grupo que se esta formando esta tomando un rumbo donde se encontrara muchos exitos, no veiamos una seleccion con tanta quimica desde la seleccion del 2014, sin dudas esta seleccion podra medirse frente a las selecciones europeas que vienen tambien con un gran crecimiento.
+                    Si bien la mayoria del plantel son jovenes, eso muestra que tendremos buena bases durante los proximos años.
+                </p>
+              </div >
+
+            </div>
+
+          </div>
+
+        </section>
+
+      <!-- Formulario -->
+      <section>
+        <div class="container-fluid"> <br>
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="img-fluid" src="imag/form/formfondo.jpg"alt="entrennado">
+            </div>
+            <div id="fondof" class="col-sm-6 text-center">
+              <label for="exampleFormControlInput1" class="form-label">
+              <h5 id="txtf">Para recibir noticias sobre la Seleccion diariamente deje su email.</h5>
+              </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su email..">
+            <a class="btn btn-dark" href="index.html" role="button">Subscribirse</a>
+            </div>
+        
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div>
+          <img class="logo_fooder" src="imag/footer/logo_foder.svg" alt="LA SACLOTENA">
+          <br>
+          <a href="https://www.instagram.com/ddiego.q/" target="_blank"><img class="redes_fooder" src="imag/svg/instagram-logo.svg" alt="Instagram Personal"></a>
+          <a href="https://twitter.com/diegosjj2"target="_blank"><img class="redes_fooder" src="imag/svg/twitter-logo-button.svg" alt="Twitter Personal"></a>
+        </div>
+      
+      </footer>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
